@@ -1,0 +1,36 @@
+{
+  "name": "forums_api",
+  "version": "0.0.1",
+  "description": "Framework project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "node node_modules/mocha/bin/_mocha ./tests/* --reporter spec --exit",
+    "devtest": "nodemon node_modules/mocha/bin/_mocha ./tests/* --reporter spec --exit"
+  },
+  "keywords": [
+    "nosql",
+    "neo4j",
+    "nodejs"
+  ],
+  "author": "Martijn Heeffer",
+  "StudentNummer": "2126757",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12",
+    "neo4j-driver": "^1.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
